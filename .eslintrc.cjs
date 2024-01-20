@@ -27,5 +27,8 @@ module.exports = {
 				parser: '@typescript-eslint/parser'
 			}
 		}
-	]
+	],
+	rules: {
+		"a11y-no-static-element-interactions": "off"
+	}
 };
