@@ -132,7 +132,7 @@
 		background-color: #000;
 	}
 
-	/* @keyframes drawPath1 {
+	@keyframes drawPath1 {
 		0% {
 			stroke-dashoffset: 6884;
 		}
@@ -145,5 +145,5 @@
 		50% {
 			transform: translate3d(0, 40px, 0);
 		}
-	} */
+	}
 </style>
