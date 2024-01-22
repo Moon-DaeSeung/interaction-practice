@@ -49,7 +49,7 @@
 		function animate() {
 			for (let i = 0; i < banners.length; i++) {
 				banners[i].count += 1;
-				if (banners[i].count > banners[i].el.scrollWidth) {
+				if (banners[i].count > banners[i].el.children[0].scrollWidth) {
 					banners[i].count = 0;
 				}
 			}
