@@ -1,5 +1,5 @@
 <script lang="ts">
-	const text = 'Moon Coding';
+	const text = 'Comwit';
 	let count = 0;
 
 	let skew = 0;

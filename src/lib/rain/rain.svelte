@@ -24,7 +24,7 @@
 			ctx.moveTo(this.x, this.y);
 			ctx.lineTo(this.x + this.v.x * 2, this.y + this.v.y * 2);
 			ctx.strokeStyle = '#fff';
-			ctx.lineWidth = 1.5;
+			ctx.lineWidth = 1;
 			ctx.stroke();
 		}
 
@@ -43,7 +43,7 @@
 		animate() {
 			if (this.y > height) {
 				this.y = -20;
-				this.x = randomBetween(0, width);
+				this.x = randomBetween(-0.2 * width, 1.2 * width);
 				this.splash();
 			}
 			if (this.isMouseActive !== (mouse != null)) {
@@ -70,7 +70,7 @@
 		) {}
 		draw() {
 			ctx.beginPath();
-			ctx.arc(this.x, this.y, 1.5, 0, Math.PI * 2, false);
+			ctx.arc(this.x, this.y, 1, 0, Math.PI * 2, false);
 			ctx.fillStyle = '#fff';
 			ctx.fill();
 			ctx.closePath();
