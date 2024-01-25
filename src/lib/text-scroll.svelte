@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import CustomMouse from './custom-mouse/custom-mouse.svelte';
 
 	const text1 = 'Yummy Tasty Delicious Useful Coding Yummy Yummmmy Yummmmmmmmmy yum';
 	const text2 = 'Chicken Hamburger Pizza Salad Sushi Ramen Gimbab JJajangmyeon';
