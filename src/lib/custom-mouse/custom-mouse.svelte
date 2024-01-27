@@ -118,6 +118,7 @@
 			0
 		);
 		mix-blend-mode: difference;
+		
 		pointer-events: none;
 	}
 	.cursor > div {

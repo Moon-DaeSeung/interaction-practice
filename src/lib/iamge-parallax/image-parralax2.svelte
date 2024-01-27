@@ -48,6 +48,7 @@
 
 		if (mouseDownAt === null) return;
 		const dx = (e.clientX - mouseDownAt) * 0.01;
+    
 		const total = window.innerWidth * 0.5;
 		progress = clamp(progress + dx / total, 0, 1);
 		if (progress === 0 || progress === 1) {

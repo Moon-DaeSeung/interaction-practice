@@ -24,6 +24,7 @@
 	function handleScroll(e: WheelEvent) {
 		scrollY += e.deltaY / 2;
 		scrollY = clamp(scrollY, 0, Infinity);
+		
 		cancelAnimationFrame(requestAnimationId);
 		animateScroll();
 		cardEls.forEach(parallax);
